@@ -1,0 +1,294 @@
+body {
+  min-width: 1000px;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  background: #F3F5FC;
+  overflow: hidden;
+}
+
+.sublinhado {
+  display: flex;
+}
+
+.btn-iniciar {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 24px;
+
+  position: absolute;
+  width: 317px;
+  height: 114px;
+  left: 0;
+  top: 20rem;
+
+  /* Dark blue/dark-blue-300 */
+
+  background: #0A3871;
+  border-radius: 24px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 22px;
+  display: flex;
+  justify-content: center;
+
+  /* White */
+
+  color: #FFFFFF;
+}
+
+.btn-palavra {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 24px;
+  position: absolute;
+  width: 280px;
+  height: 67px;
+  left: 1.2rem;
+  top: 28rem;
+  border: 1px solid #0A3871;
+  box-sizing: border-box;
+  border-radius: 24px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  justify-content: center;
+  color: #0A3871;
+}
+
+.text-input {
+  /* Digite seu texto */
+
+  position: absolute;
+  width: 600px;
+  height: auto;
+  left: 21.5rem;
+  top: 12rem;
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 150%;
+  justify-content: baseline;
+  /* identical to box height, or 48px */
+
+
+  /* Dark blue/dark-blue-300 */
+
+  color: #0A3871;
+  background: transparent;
+  border: none;
+  text-transform: uppercase;
+}
+
+::placeholder {
+  color: #0A3871;
+  text-transform: lowercase;
+}
+
+.text-input:focus {
+  border: none;
+  outline: none;
+}
+
+.logo {
+  position: absolute;
+  left: 50px;
+  right: 37.43%;
+  top: 50px;
+  bottom: 0%;
+  width: 40px;
+  height: 40px;
+}
+
+label {
+  flex-direction: row;
+  position: static;
+  width: 300px;
+  height: 18px;
+  left: 24px;
+  top: 0px;
+  padding-left: 25px;
+  font-weight: 600;
+
+  font-family: Inter;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 100%;
+
+  /* identical to box height, or 18px */
+
+
+  /* Gray/gray-300 */
+  color: #495057;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+
+  position: absolute;
+  width: auto;
+  height: 18px;
+  left: 20rem;
+  top: 15.5rem;
+}
+
+.botoes-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+
+  position: absolute;
+  width: 680px;
+  height: 67px;
+  top: 30rem;
+  left: 20rem;
+}
+
+.palavra-nova {
+  left: 30rem;
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  align-items: flex-start;
+
+}
+
+.btn-azul {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 300px;
+  height: 67px;
+  left: 0px;
+  top: 100px;
+  margin-bottom: 50px;
+
+  background: #0A3871;
+  border-radius: 24px;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 24px;
+  flex-grow: 0;
+  color: #FFFFFF;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 19px;
+  justify-content: center;
+
+}
+
+
+.btn-branco {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 24px;
+
+  position: static;
+  width: 300px;
+  height: 67px;
+  left: 352px;
+  top: 0px;
+
+  /* Light gray */
+
+  background: #D8DFE8;
+  /* Dark blue/dark-blue-300 */
+
+  border: 1px solid #0A3871;
+  box-sizing: border-box;
+  border-radius: 24px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin-left: 24px;
+
+  color: #0A3871;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 19px;
+  justify-content: center;
+}
+
+
+.btn-branco-sair {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 24px;
+
+  position: static;
+  width: 300px;
+  height: 67px;
+  left: 352px;
+  top: 0px;
+
+  /* Light gray */
+
+  background: #D8DFE8;
+  /* Dark blue/dark-blue-300 */
+
+  border: 1px solid #0A3871;
+  box-sizing: border-box;
+  border-radius: 24px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin-top: 10px;
+  margin-left: 24px;
+
+  color: #0A3871;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 19px;
+  justify-content: center;
+}
+
+.canvas {
+  margin-left: 2.5rem;
+  width: 1024px;
+  height: 800px
+}
+
+.botoes-div-canvas {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  position: absolute;
+  width: 680px;
+  height: 67px;
+  left: 2rem;
+  top: 30%;
+}
+
+.botoes-home {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+  left: 33rem;
+}

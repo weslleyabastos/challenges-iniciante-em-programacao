@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Jogo da forca</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <img src="images/logo.svg" class="logo"> 
+    <div id="div-desaparece" class="botoes-home">
+      <a href="#forca"><input class="btn-iniciar" type="submit" value="Iniciar Jogo" id="iniciar-jogo"  >
+      </a>
+      <button class="btn-palavra" id="nova-palavra" onclick="mostrarTelaAdicionarPalavra()">Adicionar Palavra</button> 
+    </div>
+     <div id= "adicionar-palavra" class="palavra-nova">
+      <input class="text-input" type="text" id="input-nova-palavra"  maxlength="8" placeholder="Escreva uma palavra">
+      <div class="form-group">
+        <img src="images/!.png" class="img-alerta">
+        <label for="input-texto"> Máx. 8 caracteres</label>
+      </div>
+      <div class="botoes-div">
+        <input class="btn-azul" type="submit" value="Salvar e começar" id="btn-salvar">
+        <input class="btn-branco" type="submit" value="Cancelar" id="btn-cancelar">
+      </div> 
+    </div>
+    <div id="div-aparece-forca" class="canvas">
+      <canvas id="forca" height="860px" width="1200"></canvas>
+      <div class="sublinhado">
+
+      </div>
+      <div class="botoes-div-canvas">
+        <input class="btn-azul" type="submit" value="Novo Jogo" id="btn-novo-jogo">
+        <input class="btn-branco" type="submit" value="Sair" id="btn-sair">
+      </div>
+    </div>
+    <script type="text/javascript" src="forca.js"></script>
+     <script type="text/javascript" src="canvas.js"></script> 
+  </body>
+</html>
